@@ -42,13 +42,13 @@ You have a folder (`raw_data`) that contains:
 - JSON data from real estate ads,
 - a CSV file with buildings. 
 
-It's required that you write a script to identify for each ad, which building it belongs to. After successfully **identifying that an ad X belongs to building Y, load the enriched ad data into a PostgreSQL table (or set of tables).**
+It's required that you **WRITE A SCRIPT** to identify for each ad, which building it belongs to. After successfully **identifying that an ad X belongs to building Y, load the enriched ad data into a PostgreSQL table (or set of tables).**
 You should also provide the sql statements to create the table(s) into PostgreSQL database.
 
 
 ### Tips and things to keep in mind
 
-- Organize your workflow in a way that you also provide instructions on how to run your scripts.
+- Organize your workflow AND write a README with instructions on how to run your scripts.
 - Is your solution able to find a building for every ad? **Don't worry if it's 100%**, but can you explain why?
 - What would you do **differently** if you had more time?
 - Feel free to use any language you're comfortable with, but keep in mind that organization and comments are welcome to explain your train of thought.
